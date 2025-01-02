@@ -3,8 +3,7 @@
   "name": "artisan-avenue-monorepo",
   "version": "1.0.0",
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "apps/*"
   ],
   "scripts": {
     "install:all": "npm install",
