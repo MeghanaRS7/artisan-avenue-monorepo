@@ -11,7 +11,19 @@
     "@storybook/react": "^8.4.7",
     "@storybook/react-vite": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "define-properties": "^1.2.1",
+    "es-abstract": "^1.23.9",
+    "es-array-method-boxes-properly": "^1.0.0",
+    "get-symbol-description": "^1.1.0",
+    "globalthis": "^1.0.4",
+    "is-regex": "^1.2.1",
+    "is-string": "^1.1.1",
+    "object.getownpropertydescriptors": "^2.1.8",
+    "object.values": "^1.2.1",
     "prop-types": "^15.8.1",
+    "regexp.prototype.flags": "^1.5.4",
+    "set-function-name": "^2.0.2",
+    "side-channel": "^1.1.0",
     "storybook": "^8.4.7"
   },
   "scripts": {
@@ -19,6 +31,8 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "core-js": "^3.40.0",
+    "regenerator-runtime": "^0.14.1",
     "styled-components": "^6.1.13"
   }
 }
