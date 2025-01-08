@@ -7,12 +7,8 @@ import { Button } from './Button';
 
 // Define the Meta for the Button component
 const meta: Meta<typeof Button> = {
-  title: 'Example/Button',
+  title: 'Components/Button',
   component: Button,
-  parameters: {
-    layout: 'centered',
-  },
-  tags: ['autodocs'],
   argTypes: {
     productURL: { control: 'text' },
   },

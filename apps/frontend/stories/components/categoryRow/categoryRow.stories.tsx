@@ -10,18 +10,15 @@ import category6 from '../../../src/images/category6.svg';
 import category7 from '../../../src/images/category7.svg'; 
 import category8 from '../../../src/images/category8.svg';
 
-// Define the metadata for the story
 const meta: Meta<typeof CategoryRow> = {
   title: 'Components/CategoryRow',
   component: CategoryRow,
-  tags: ['autodocs'], 
 };
 
 export default meta;
 
 type Story = StoryObj<typeof CategoryRow>;
 
-// Define the Default story
 export const Default: Story = {
   args: {
     categories: [
