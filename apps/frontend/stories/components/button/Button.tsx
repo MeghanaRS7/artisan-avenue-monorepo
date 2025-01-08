@@ -7,15 +7,14 @@ interface ButtonProps {
  productURL?: string;
 }
 
-
 const StyledButton = styled.a<{ isClicked: boolean;}>`
  display: inline-block;
  text-decoration: none;
  padding: 0.5em 1em;
  border-radius: 20px;
- background-color: 'white';
+ background-color: white;
  color: ${({ isClicked }) => (isClicked ? 'white' : 'black')};
- border: 2px solid #1ea7fd;
+ border:${({ isClicked }) => (isClicked ? '1px solid #fff' : '1px solid rgb(41, 44, 46)' )};
  cursor: pointer;
  transition: background-color 0.3s, color 0.3s;
  font-size: 0.8rem;
@@ -30,6 +29,7 @@ const StyledButton = styled.a<{ isClicked: boolean;}>`
  &:hover {
    background-color: #1ea7fd;
    color: white;
+   border: 1px solid #fff;
  }
 `;
 
