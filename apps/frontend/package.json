@@ -27,12 +27,26 @@
     "storybook": "^8.4.7"
   },
   "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@types/react": "^19.1.1",
+    "@types/react-dom": "^19.1.2",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^4.3.4",
     "core-js": "^3.40.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.5.0",
     "regenerator-runtime": "^0.14.1",
-    "styled-components": "^6.1.13"
+    "styled-components": "^6.1.17",
+    "swiper": "^11.2.6",
+    "vite": "^6.2.6"
   }
 }
